@@ -1,7 +1,7 @@
 # Regular-Expression
 
 Brayden Roth-White
-brayden.roth-white@wsu.edu
+roth-white.brayden@comcast.net
 
 RegEx.py takes in a file of postfix expressions in a language Σ=(a,b,c,d,e),
 E represents ε and 0 represents the null set, and outputs a table representative
