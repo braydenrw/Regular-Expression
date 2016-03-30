@@ -10,13 +10,14 @@ of the associated nfa.
 Example of table output
 Input ab+
 Output
-q__|____a|____b|____c|____d|____e|______E|
-0  |   1 |     |     |     |     |       |
-1  |     |     |     |     |     |   5   |
-2  |     |   3 |     |     |     |       |
-3  |     |     |     |     |     |   5   |
-4 S|     |     |     |     |     | 2 , 0 |
-5 F|     |     |     |     |     |       |
+|q  |    a|    b|    c|    d|    e|      E|
+|---|-----|-----|-----|-----|-----|-------|
+|0  |   1 |     |     |     |     |       |
+|1  |     |     |     |     |     |   5   |
+|2  |     |   3 |     |     |     |       |
+|3  |     |     |     |     |     |   5   |
+|4 S|     |     |     |     |     | 2 , 0 |
+|5 F|     |     |     |     |     |       |
 
 Start state is labeled with an 'S' and final state is labeled 'F', first column 'q'
 is a column for the different states, the numbers in the other columns represent
