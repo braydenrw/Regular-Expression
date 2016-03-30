@@ -8,8 +8,8 @@ E represents ε and 0 represents the null set, and outputs a table representativ
 of the associated nfa.
 
 Example of table output
-Input: ab+
-Output:
+Input ab+
+Output
 q__|____a|____b|____c|____d|____e|______E|
 0  |   1 |     |     |     |     |       |
 1  |     |     |     |     |     |   5   |
