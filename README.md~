@@ -1,5 +1,3 @@
-# Regular-Expression
-
 Brayden Roth-White
 brayden.roth-white@wsu.edu
 
@@ -30,3 +28,9 @@ screen, which should be to enter the file name.
 RegEx.py: Main class that makes an nfa and table
 Stack.py: Essentially turns append() into push() for aesthetic purposes.
 Node.py: Data structure that builds the nfa.
+
+NOTE: Kleene star method uses Thompson's Construction Algorithm rather than
+what is described in the project notes.  An nfa is passed in, a new start and
+new final state is created, the new start state epsilon jumps to the nfa passed
+in and the new final state, the nfa's old final state epsilon jumps to the old
+start state of the nfa.  The new nfa is returned.
